@@ -3,7 +3,7 @@ import perfil_img from "../../assets/PHOTO I.png";
 
 const Perfil = () => {
   return (
-    <div className="Perfil">
+    <div id="home" className="Perfil">
       <img src={perfil_img} alt="Alexander" />
       <h1><span>I'm Alexander,</span>  frontend develep </h1>
       <p>soy nuevo en esto</p>
